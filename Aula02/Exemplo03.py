@@ -1,7 +1,7 @@
 #Leia a idade do usuário e informe se ele é maior ou menor de idade
 
 
-print("--------Bar do Italo para beber aqui tem que ter 18 anos ou mais----------");
+print("-----------Bar do Italo para beber aqui tem que ter 18 anos ou mais----------");
 idd_pessoa = int(input("informe sua idade por favor:"));
 
 if idd_pessoa <0:

@@ -8,4 +8,4 @@ print(txt2.lower());
 
 txt3 = "Eu amo Sorvete, Pizza, Hamburguer, Lasanha, Peixe, Frango"
 
-print(txt3.split(","))
+print(txt3.split(" "))

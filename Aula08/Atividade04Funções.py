@@ -19,4 +19,18 @@ def mult_valores(*args):
     for i in args:
         aux*= i
     return aux
-print(mult_valores(2,2,2,2))
+# print(mult_valores(2,2,2,2))
+
+
+#4.	Crie uma função em Python para mostrar apenas as chaves de um dicionário.
+
+def Mostra_chave(**kwargs):    
+    chaves = kwargs
+    print(f"\nAqui mostra as chaves: {list(chaves.keys())}");
+    print(f"\nAqui mostra os valores: {list(chaves.values())}");
+    print(f"\nAqui mostra os itens: {list(chaves.items())}");
+    print(f"\nAqui é o tamanho do Dicionário: {len(chaves)}\n");
+    return chaves
+
+Mostra_chave(valor1=111, valor2=222, valor3= 333, valor4 = 444); 
+

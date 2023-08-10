@@ -16,3 +16,4 @@ if __name__ == '__main__':
     print(soma_coxinha(6,10,20,6,7,8,9,20,40,500,210))
     print(media_valores(10,10,10,2))
     print(valores_teste(idade=3, preço=6, qtd=9));
+    print(valores_teste)

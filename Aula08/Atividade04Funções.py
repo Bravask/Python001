@@ -24,13 +24,35 @@ def mult_valores(*args):
 
 #4.	Crie uma função em Python para mostrar apenas as chaves de um dicionário.
 
-def Mostra_chave(**kwargs):    
-    chaves = kwargs
-    print(f"\nAqui mostra as chaves: {list(chaves.keys())}");
-    print(f"\nAqui mostra os valores: {list(chaves.values())}");
-    print(f"\nAqui mostra os itens: {list(chaves.items())}");
-    print(f"\nAqui é o tamanho do Dicionário: {len(chaves)}\n");
-    return chaves
+# def Mostra_chave(**kwargs):    
+#     chaves = kwargs
+#     print(f"\nAqui mostra as chaves: {list(chaves.keys())}");
+#     print(f"\nAqui mostra os valores: {list(chaves.values())}");
+#     print(f"\nAqui mostra os itens: {list(chaves.items())}");
+#     print(f"\nAqui é o tamanho do Dicionário: {len(chaves)}\n");
+#     return chaves
 
-Mostra_chave(valor1=111, valor2=222, valor3= 333, valor4 = 444); 
+# Mostra_chave(valor1=111, valor2=222, valor3= 333, valor4 = 444); 
 
+
+def mostrar_chaves(dicionario):
+    return list(dicionario.keys())
+
+def mostrar_valores(dicionario):
+    return list(dicionario.values())
+
+def mostrar_itens(dicionario):
+    return list(dicionario.items())
+
+
+
+meu_dicionario = {"nome": "Italo", "idade": 24, "cidade": "Manaus"}
+
+
+chaves = mostrar_chaves(meu_dicionario)
+valores = mostrar_valores(meu_dicionario)
+itens = mostrar_itens(meu_dicionario)
+
+print("As chaves do dicionário são:", chaves);
+print("Os valores do dicionário são:", valores);
+print("Os itens do dicionário são: ", itens);

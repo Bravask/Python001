@@ -1,0 +1,14 @@
+
+O nome do curso é Informática Básica, com a  carga horária de 40 horas e no valor de 50.0 reais
+
+O nome do curso é Culinária, com a  carga horária de 40 horas e no valor de 2000.00 reais
+
+O nome do curso é Fotográfia, com a  carga horária de 50 horas e no valor de 100.00 reais
+
+O nome do curso é Segurança do trabalho, com a  carga horária de 100 horas e no valor de R$300.00 reais
+
+O nome do curso é Enriquecendo com celular, com a carga horária de: 200 horas e no valor de R$1500.00 reais
+
+O nome do curso é Arrasta pra cima, com a carga horária de: 2 horas e no valor de R$300.00 reais
+
+O nome do curso é Assistente de bandido, com a carga horária de: 10 horas e no valor de R$500.00 reais

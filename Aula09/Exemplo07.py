@@ -7,3 +7,4 @@ try:
     txt.write(f"{nome:^15} - {email:^15}\n");
 except:
     print("Erro ao gravar os dados!!!");
+    

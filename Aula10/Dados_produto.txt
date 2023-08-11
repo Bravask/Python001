@@ -1,0 +1,21 @@
+
+
+Produto Registrado: Refrigerante com 100 de quantidade e o valor de R$5.00
+
+
+Produto Registrado: sanduiche com 100 de quantidade e o valor de R$5.00
+
+
+Produto Registrado: celular com 10 de quantidade e o valor de R$600.00
+
+
+Produto Registrado: mouse com 1 de quantidade e o valor de R$300.00
+
+
+Produto Registrado: teclado com 1000 de quantidade e o valor de R$50.00
+
+
+Produto Registrado: Cadeira com 190 de quantidade e o valor de R$350.00
+
+
+Produto Registrado: Suporte com 5 de quantidade e o valor de R$250.00

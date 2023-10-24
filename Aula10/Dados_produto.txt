@@ -19,3 +19,64 @@ Produto Registrado: Cadeira com 190 de quantidade e o valor de R$350.00
 
 
 Produto Registrado: Suporte com 5 de quantidade e o valor de R$250.00
+
+
+Produto Registrado: Extensão com 504 de quantidade e o valor de R$90.00
+
+
+Produto Registrado: Quadro com 5 de quantidade e o valor de R$100.00
+
+
+Produto Registrado: vibrador com 30 de quantidade e o valor de R$69.00
+
+
+Produto Registrado: papel com 100 de quantidade e o valor de R$3.00
+
+
+Produto Registrado: violão com 10 de quantidade e o valor de R$560.00
+
+
+Produto Registrado: ventilador com 599 de quantidade e o valor de R$50.00
+
+
+Produto Registrado: ar-condicionado com 150 de quantidade e o valor de R$3000.00
+
+
+Produto Registrado: janela com 40 de quantidade e o valor de R$350.00
+
+
+
+Produto Registrado: mesa com 80 de quantidade e o valor de R$350.00
+
+
+Produto Registrado: Cama com 150 de quantidade e o valor de R$90.00
+
+
+Produto Registrado: Fogão com 50 de quantidade e o valor de R$95.00
+
+
+Produto Registrado: porta com 10000 de quantidade e o valor de R$50.00
+
+
+Produto Registrado: vaso sanitário com 5 de quantidade e o valor de R$5000.00
+
+
+Produto Registrado: geladeira com 100 de quantidade e o valor de R$550.00
+
+
+Produto Registrado: videogame com 73 de quantidade e o valor de R$4000.00
+
+
+Produto Registrado: piscina de bolinhas com 345 de quantidade e o valor de R$563.00
+
+
+Produto Registrado: arma de fogo com 1000 de quantidade e o valor de R$5000.00
+
+
+Produto Registrado: faca de pão com 92 de quantidade e o valor de R$1.00
+
+
+Produto Registrado: garfo com 3400 de quantidade e o valor de R$2.00
+
+
+Produto Registrado: carregador com 200 de quantidade e o valor de R$250.00

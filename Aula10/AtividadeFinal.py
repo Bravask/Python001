@@ -54,14 +54,23 @@ escolha = int(input("Escolha uma Opção:"));
 print("*"*150);
 while true:
     if escolha == 1:
-        cad_produto()
+        cad_produto();
+
+        continua_cadastro = input("Deseja continuar o cadastro\n Sim ou Não?\n - ");
+        while continua_cadastro.lower() == 'sim':
+            cad_produto()
+            continua_cadastro = input("Deseja continuar o cadastro\n Sim ou Não?\n");
+        
+        if continua_cadastro.lower() == 'não':
+            print("Encerrando o cadastro.");
+            break
+        else:
+            print("Opção inválida. Digite 'Sim' para continuar ou 'Não' para encerrar.");
+        
     elif escolha ==2:
         ler_dados()
     elif escolha == 3:
         print("Saindo do aplicativo!");
     break
 else:
-    print("Opção inválida, por favor tente novamente")
-    
-
-
+    print("Opção inválida, por favor tente novamente");

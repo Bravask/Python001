@@ -57,7 +57,8 @@ while True:
     else:
         print("Isso não é um número. Tente novamente.")
 
-entrada_numero= recebe_inteiro # Aqui no final é apenas para estitca minha, colocar o entrada para chamar a função
+
+entrada_numero= recebe_inteiro # Aqui no final é apenas para estitca minha, colocar o entrada para chamar a função 
 
 
 

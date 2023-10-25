@@ -1,4 +1,7 @@
 '''CRIANDO UMA TABUADA'''
+import os as cmd
+
+cmd.system('cls');
 
 def tabuada(numero, operador):
     operacao_escolhida = operador;
@@ -42,11 +45,21 @@ print("*"*50);
 print("---------TABUADA VERSÃO 2023----------");
 print("*"*50);
 
-entrada_numero = int(input("Digite um numero de 1 a 10:\n"));
+while True:
+    entrada_numero= input("Digite um número de 1 a 10: ")
 
-while entrada_numero <1 or entrada_numero >10:
-    entrada_numero = int(input("Por favor digite um numero de 1 a 10: \n"));
-    continue
+    if entrada_numero.isdigit(): # além da função isdigit, tem também a função isaplha() para verificar se foi letra o que foi digitado.
+        recebe_inteiro = int(entrada_numero)
+        if recebe_inteiro >=1 and recebe_inteiro <=10:
+            break
+        else:
+            print("Por favor digite um número apenas dentro do intervalo de 1 até 10: ");
+    else:
+        print("Isso não é um número. Tente novamente.")
+
+entrada_numero= recebe_inteiro # Aqui no final é apenas para estitca minha, colocar o entrada para chamar a função
+
+
 
 entrada_operacao = input("Escolha qual operação você quer: +, -, *, /\n").replace(" ","");
 while entrada_operacao != '+' and entrada_operacao != '-' and entrada_operacao != '/' and entrada_operacao != '*': # Aqui ele verifica se o que foi digitado é diferente de tudo isso ai, se for, então executa  a linha, senão ele executa o codigo normalmente

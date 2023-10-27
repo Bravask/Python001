@@ -16,13 +16,13 @@ enter.entrada_tabuada()
 verdade_falso = True
 
 while verdade_falso:
-    continua_entrada = input("Deseja continuar S/N?\n").strip().lower()
+    continua_entrada = input("Deseja continuar S/N?\n").strip().upper()
 
-    if continua_entrada == 'n':
-        print("Obrigado por usar a tabuada!")
+    if continua_entrada == 'N':
+        print("Obrigado por usar a tabuada!");
         verdade_falso = False
-    elif continua_entrada != 's':
-        print("Entrada digitada incorreta, apenas S/N.")
+    elif continua_entrada != 'S':
+        print("Entrada digitada incorreta, apenas S/N.");
     else:
         cmd.system('cls');
         enter.entrada_tabuada()
